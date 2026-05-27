@@ -48,7 +48,7 @@ struct ContentView: View {
                 }
 
                 Section("Total amount") {
-                    Text(totalAmount, format: amountFormat)
+                    Text(totalAmount, format: amountFormat).foregroundStyle(totalAmount == 0 ? .red : .primary)
                 }
 
                 Section("Amount per person") {
