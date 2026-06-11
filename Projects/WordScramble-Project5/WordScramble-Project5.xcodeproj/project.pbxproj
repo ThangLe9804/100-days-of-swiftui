@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 100;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -55,24 +55,18 @@
 /* Begin PBXFrameworksBuildPhase section */
 		249EC1502FD91C0000D5DC4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		249EC15D2FD91C0500D5DC4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		249EC1672FD91C0500D5DC4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -111,14 +105,10 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			fileSystemSynchronizedGroups = (
 				249EC1552FD91C0000D5DC4C /* WordScramble-Project5 */,
 			);
 			name = "WordScramble-Project5";
-			packageProductDependencies = (
-			);
 			productName = "WordScramble-Project5";
 			productReference = 249EC1532FD91C0000D5DC4C /* WordScramble-Project5.app */;
 			productType = "com.apple.product-type.application";
@@ -140,8 +130,6 @@
 				249EC1632FD91C0500D5DC4C /* WordScramble-Project5Tests */,
 			);
 			name = "WordScramble-Project5Tests";
-			packageProductDependencies = (
-			);
 			productName = "WordScramble-Project5Tests";
 			productReference = 249EC1602FD91C0500D5DC4C /* WordScramble-Project5Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -163,8 +151,6 @@
 				249EC16D2FD91C0500D5DC4C /* WordScramble-Project5UITests */,
 			);
 			name = "WordScramble-Project5UITests";
-			packageProductDependencies = (
-			);
 			productName = "WordScramble-Project5UITests";
 			productReference = 249EC16A2FD91C0500D5DC4C /* WordScramble-Project5UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -201,7 +187,7 @@
 			);
 			mainGroup = 249EC14A2FD91C0000D5DC4C;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 100;
 			productRefGroup = 249EC1542FD91C0000D5DC4C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -216,49 +202,37 @@
 /* Begin PBXResourcesBuildPhase section */
 		249EC1512FD91C0000D5DC4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				02812FC72FDB219100BA79A2 /* start.txt in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		249EC15E2FD91C0500D5DC4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		249EC1682FD91C0500D5DC4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		249EC14F2FD91C0000D5DC4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		249EC15C2FD91C0500D5DC4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		249EC1662FD91C0500D5DC4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -276,7 +250,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		249EC1722FD91C0500D5DC4C /* Debug */ = {
+		249EC1722FD91C0500D5DC4C /* Debug configuration for PBXProject "WordScramble-Project5" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -340,7 +314,7 @@
 			};
 			name = Debug;
 		};
-		249EC1732FD91C0500D5DC4C /* Release */ = {
+		249EC1732FD91C0500D5DC4C /* Release configuration for PBXProject "WordScramble-Project5" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -397,7 +371,7 @@
 			};
 			name = Release;
 		};
-		249EC1752FD91C0500D5DC4C /* Debug */ = {
+		249EC1752FD91C0500D5DC4C /* Debug configuration for PBXNativeTarget "WordScramble-Project5" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -424,12 +398,12 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		249EC1762FD91C0500D5DC4C /* Release */ = {
+		249EC1762FD91C0500D5DC4C /* Release configuration for PBXNativeTarget "WordScramble-Project5" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -456,12 +430,12 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		249EC1782FD91C0500D5DC4C /* Debug */ = {
+		249EC1782FD91C0500D5DC4C /* Debug configuration for PBXNativeTarget "WordScramble-Project5Tests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		249EC1792FD91C0500D5DC4C /* Release */ = {
+		249EC1792FD91C0500D5DC4C /* Release configuration for PBXNativeTarget "WordScramble-Project5Tests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,7 +479,7 @@
 			};
 			name = Release;
 		};
-		249EC17B2FD91C0500D5DC4C /* Debug */ = {
+		249EC17B2FD91C0500D5DC4C /* Debug configuration for PBXNativeTarget "WordScramble-Project5UITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -525,7 +499,7 @@
 			};
 			name = Debug;
 		};
-		249EC17C2FD91C0500D5DC4C /* Release */ = {
+		249EC17C2FD91C0500D5DC4C /* Release configuration for PBXNativeTarget "WordScramble-Project5UITests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -551,37 +525,33 @@
 		249EC14E2FD91C0000D5DC4C /* Build configuration list for PBXProject "WordScramble-Project5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				249EC1722FD91C0500D5DC4C /* Debug */,
-				249EC1732FD91C0500D5DC4C /* Release */,
+				249EC1722FD91C0500D5DC4C /* Debug configuration for PBXProject "WordScramble-Project5" */,
+				249EC1732FD91C0500D5DC4C /* Release configuration for PBXProject "WordScramble-Project5" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		249EC1742FD91C0500D5DC4C /* Build configuration list for PBXNativeTarget "WordScramble-Project5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				249EC1752FD91C0500D5DC4C /* Debug */,
-				249EC1762FD91C0500D5DC4C /* Release */,
+				249EC1752FD91C0500D5DC4C /* Debug configuration for PBXNativeTarget "WordScramble-Project5" */,
+				249EC1762FD91C0500D5DC4C /* Release configuration for PBXNativeTarget "WordScramble-Project5" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		249EC1772FD91C0500D5DC4C /* Build configuration list for PBXNativeTarget "WordScramble-Project5Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				249EC1782FD91C0500D5DC4C /* Debug */,
-				249EC1792FD91C0500D5DC4C /* Release */,
+				249EC1782FD91C0500D5DC4C /* Debug configuration for PBXNativeTarget "WordScramble-Project5Tests" */,
+				249EC1792FD91C0500D5DC4C /* Release configuration for PBXNativeTarget "WordScramble-Project5Tests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		249EC17A2FD91C0500D5DC4C /* Build configuration list for PBXNativeTarget "WordScramble-Project5UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				249EC17B2FD91C0500D5DC4C /* Debug */,
-				249EC17C2FD91C0500D5DC4C /* Release */,
+				249EC17B2FD91C0500D5DC4C /* Debug configuration for PBXNativeTarget "WordScramble-Project5UITests" */,
+				249EC17C2FD91C0500D5DC4C /* Release configuration for PBXNativeTarget "WordScramble-Project5UITests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
