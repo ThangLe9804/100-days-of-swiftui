@@ -19,6 +19,9 @@ struct ContentView: View {
     private let endGameAlertTitle = "That's it!"
     @State private var showingEndGame = false
 
+    @State private var selectedButtonIndex: Int?
+    @State private var rotationDegree: Double = 0
+
     var body: some View {
         ZStack {
             MeshGradient(
@@ -59,6 +62,17 @@ struct ContentView: View {
                             flagTapped(number)
                         } label: {
                             FlagImage(name: countries[number])
+                                .rotation3DEffect(
+                                    .degrees(
+                                        selectedButtonIndex == number ? 360 : 0
+                                    ),
+                                    axis: (x: 0, y: 1, z: 0)
+                                )
+                                .opacity(flagOpacity(at: number))
+                                .animation(
+                                    .bouncy,
+                                    value: questionsLeftCount
+                                )
                         }
                     }
                 }
@@ -96,7 +110,17 @@ struct ContentView: View {
         }
     }
 
+    func flagOpacity(at number: Int) -> Double {
+        if selectedButtonIndex == nil {
+            return 1
+        }
+
+        return selectedButtonIndex != number ? 0.25 : 1
+    }
+
     func flagTapped(_ number: Int) {
+        selectedButtonIndex = number
+
         if number == correctAnswer {
             scoreTitle = "Correct"
             score += 1
@@ -108,6 +132,9 @@ struct ContentView: View {
         questionsLeftCount -= 1
         showAppropriateAlert()
         debugPrint(#function, questionsLeftCount)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            selectedButtonIndex = nil
+        }
     }
 
     func showAppropriateAlert() {
